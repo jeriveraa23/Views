@@ -57,3 +57,5 @@ UNION
      LEFT JOIN dynamic_field_value dfv ON dfv.object_id = ticket.id AND dfv.field_id = 4
   WHERE ticket_type.name::text in ('PROYECTO','PROCESO','Unclassified')
   ORDER BY 2;
+
+  -- comentario
